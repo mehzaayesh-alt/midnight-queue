@@ -1,6 +1,6 @@
 # The Midnight Queue: Ranking Suspicious Transactions at Scale
 
-An empirical and theoretical comparison of hand-written sorting and top-K algorithms on **284,807 real credit-card transactions**, built for a Design & Analysis of Algorithms course (Assignment 2).
+An empirical and theoretical comparison of hand-written sorting and top-K algorithms on **284,807 real credit-card transactions**
 
 A fraud team can only review **K = 100** cases per night. Every transaction gets a risk score, and the question is which algorithm should build that queue:
 1. **overnight**, ranking a whole day;
